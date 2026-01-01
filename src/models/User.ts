@@ -121,7 +121,6 @@ const UserSchema = new Schema<IUserDocument, IUserModel>(
 );
 
 // Indexes for better query performance
-UserSchema.index({ email: 1 });
 UserSchema.index({ role: 1 });
 UserSchema.index({ isActive: 1 });
 UserSchema.index({ authProvider: 1 });

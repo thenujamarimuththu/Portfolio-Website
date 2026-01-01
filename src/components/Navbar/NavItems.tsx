@@ -7,12 +7,8 @@ import { useAuth } from '@/hooks/useAuth';
 import {
   FiHome,
   FiActivity,
-  FiCalendar,
   FiShoppingCart,
   FiUsers,
-  FiClipboard,
-  FiDroplet,
-  FiPackage,
   FiFileText,
 } from 'react-icons/fi';
 
@@ -60,7 +56,7 @@ export default function NavItems({
     };
 
     const defaultItems = [
-      { name: 'Shop', href: '/shop/pharmacy', icon: FiShoppingCart },
+      { name: 'About', href: '/about', icon: FiShoppingCart },
     ];
 
     const middleItems =
